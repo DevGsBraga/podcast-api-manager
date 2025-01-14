@@ -27,18 +27,18 @@ nome do podcast, nome do episódio, imagem de capa e link do podcast.
 [
 
 {
-    category: "cristão"
-    podCastName: "JesusCopy"
-    episodeName: "O PREÇO DA MATURIDADE - Luciano Subirá - JESUSCOPY"
-    image: "https://i.ytimg.com/vi/q8fA2faXkFg/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCVrRmGrvH1S45EpXBPfoPZRNRL3Q"
+    category: "cristão",
+    podCastName: "JesusCopy",
+    episodeName: "O PREÇO DA MATURIDADE - Luciano Subirá - JESUSCOPY",
+    image: "https://i.ytimg.com/vi/q8fA2faXkFg/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCVrRmGrvH1S45EpXBPfoPZRNRL3Q",
     link: "https://www.youtube.com/watch?v=q8fA2faXkFg"
 
 },
 {
-    category: "esportes"
-    podCastName: ""
-    episodeName: "ANDRÉ HENNING - Flow Sport Club #228"
-    image: "https://i.ytimg.com/vi/CBBWKEzf6wI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDZlSiZ6gOUdxkuzAI88IuheBy0Xw"
+    category: "esportes",
+    podCastName: "",
+    episodeName: "ANDRÉ HENNING - Flow Sport Club #228",
+    image: "https://i.ytimg.com/vi/CBBWKEzf6wI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDZlSiZ6gOUdxkuzAI88IuheBy0Xw",
     link: "https://www.youtube.com/watch?v=CBBWKEzf6wI&pp=ygUQcG9kY2FzdCBlc3BvcnRlcw%3D%3D"
 
 }
@@ -47,3 +47,7 @@ nome do podcast, nome do episódio, imagem de capa e link do podcast.
 
 
 ```
+
+
+### Filter
+GET: Retorna a lista de videos baseado no filtro que o usuário passar.

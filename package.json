@@ -2,16 +2,16 @@
   "name": "podcast-api-manager",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "start": "tsx --env-file=.env src/index.ts",
-    "watch": "tsx --env-file=.env watch src/index.",
+    "watch": "tsx watch --env-file=.env src/index.",
     "build": "tsup src",
     "dist": "npm run dist && --env-file=.env node/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch src --ext ts,json --exec tsx --env-file=.env src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -22,5 +22,9 @@
     "tsup": "^8.3.5",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9",
+    "podcast-api-manager": "file:"
   }
 }
